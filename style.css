@@ -147,13 +147,69 @@ header ul ul li button {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* About me */
 .main_main2 {
-    display: none;
     width: 100%;
     height: 800px;
-    background-image: url('fourth.jpg');
+    background-image: -webkit-linear-gradient(left, rgba(13, 4, 15, 0.568) , rgba(13, 4, 15, 0.932)),url('fourth.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.main_main2 .one {
+    float: left;
+    margin-left: 200px;
+    padding: 170px 100px;
+    background-image: url('fourth.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 15px;
+}
+.main_main2 .two {
+    background-color: transparent;
+    position: relative;
+    top: -320px;
+    margin-right: 300px;
+    margin-left: 0px;
+    float: right;
+    padding: 170px 100px;
+    padding-top: 0px;
+    padding-left: 0px ;
+    text-align: left;
+    text-transform: capitalize;
+    color: #ffffff;
+    clear: both;
+}
+.main_main2 .two h1 {
+    font-size: 3em;
+}
+.main_main2 .two p {
+    text-transform: none;
+    padding-top: 16px;
+}
+.main_main2 .two p::first-letter {
+    text-transform: capitalize;
+}
+.main_main2 .two h3 {
+    padding-top: 16px
+}
+.main_main2 .two h3 span {
+    color: #34bfff;
+}
+.main_main2 .two button {
+    padding: 10px 28px;
+    border: none;
+    border-radius: 20px;
+    background-color: #34bfff;
+    transition: ease-in-out 1s;
+}
+.main_main2 .two button:hover {
+    background-color: transparent;
+    border: 3px solid #34bfff;
+    outline: none;
+}
+.main_main2 .two button a, .main_main2 .two button a:hover {
+    color: #fff;
 }
 /* skill */
 .main_main1 .she {
