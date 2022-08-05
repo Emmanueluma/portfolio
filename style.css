@@ -140,12 +140,125 @@ header ul ul li button {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* skill */
 .main_main1 {
     width: 100%;
     height: 800px;
-    background-image: url('five.jpg');
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.383) , rgba(0, 0, 0, 0.49)),url('five.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.main_main1 .she {
+    position: absolute;
+    top: 1950px;
+    right: 160px;
+    border: 4px solid #ffffffa9;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.main_main1 #she2 {
+    position: relative;
+    bottom: 160px;
+    left: 1000px;
+    border: 4px solid #ffffffa9;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.main_main1 .she1 {
+    position: absolute;
+    top: 1990px;
+    right: 114px;
+    border: 5px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #ffffffa9;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main_main1.she1 span {
+    font-size: 13px;
+}
+.main_main1 .border {
+    position: relative;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    border-radius: 15px;
+    height: 500px;
+    width: 700px
+}
+.main_main1 div h3 {
+    text-transform: uppercase;
+}
+.one, .two, .three, .four {
+    background-color: #ffffffa9;
+    width: 250px;
+    height: 150px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
+}
+.two, .four {
+    margin-right: 50px;
+    float: right;
+}
+.one {
+    position: relative;
+    top: 90px;
+}
+.two {
+    position: relative;
+    top: -65px;
+    
+}
+.three {
+    position: relative;
+    top: 150px;
+}
+.four {
+    position: relative;
+    top: -5px;
+}
+i {
+    font-size: 30px;
+    color: #34bfff;
+}
+/* hire me */
+.beauty {
+    width: 100%;
+    padding: 70px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #000;
+    font-size: 2em;
+    color: #fff;
+}
+.beauty button {
+    padding: 10px 28px;
+    border: none;
+    border-radius: 20px;
+    background-color: #34bfff;
+    transition: ease-in-out 1s;
+}
+.beauty button:hover {
+    background-color: transparent;
+    border: 3px solid #34bfff;
+    outline: none;
+}
+.beauty button a, .beauty button a:hover {
+    color: #fff;
+    text-transform: capitalize;
 }
 /* About me */
 .main_main2 {
@@ -210,79 +323,6 @@ header ul ul li button {
 }
 .main_main2 .two button a, .main_main2 .two button a:hover {
     color: #fff;
-}
-/* skill */
-.main_main1 .she {
-    position: absolute;
-    top: 1950px;
-    right: 160px;
-    border: 4px solid #ffffffa9;;
-    width: 200px;
-    height: 150px;
-    text-align: center;
-}
-.main_main1 .she1 {
-    position: absolute;
-    top: 1990px;
-    right: 114px;
-    border: 5px solid rgb(0, 0, 0);
-    width: 200px;
-    height: 75px;
-    text-align: center;
-    line-height: 70px;
-    font-size: 3em;
-    text-transform: uppercase;
-    color: #000000;
-    background-color: #ffffffa9;;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.main_main1.she1 span {
-    font-size: 13px;
-}
-.main_main1 .border {
-    position: relative;
-    top: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid #000000;
-    height: 500px;
-    width: 700px
-}
-.main_main1 div h3 {
-    text-transform: uppercase;
-}
-.one, .two, .three, .four {
-    background-color: #ffffffa9;
-    width: 250px;
-    height: 150px;
-    margin-left: 50px;
-    text-align: center;
-    padding: 4px;
-}
-.two, .four {
-    margin-right: 50px;
-    float: right;
-}
-.one {
-    position: relative;
-    top: 90px;
-}
-.two {
-    position: relative;
-    top: -65px;
-    
-}
-.three {
-    position: relative;
-    top: 150px;
-}
-.four {
-    position: relative;
-    top: -5px;
-}
-i {
-    font-size: 30px;
-    color: #34bfff;
 }
 /* footer */
 footer div {
