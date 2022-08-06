@@ -109,7 +109,7 @@ header ul ul li button {
     left: 0px;
     width: 500px;
     height: 50px;
-    background-color: #ffffff;
+    background-color: #f8eeee;
     border-radius: 25px;
     box-shadow: 0  0 4.6px #34bfff;
 }
@@ -167,7 +167,7 @@ header ul ul li button {
 .main_main .border:hover {
     border: 3px solid #34bfff;
 }
-.main_main .border .main{
+.main_main .border .main {
     background-image: url('assign1.png');
     background-size: cover;
     background-position: center;
@@ -175,6 +175,30 @@ header ul ul li button {
     top: 70px;
     width: 400px;
     height: 450px;
+}
+.main_main .border .border_text {
+    position: relative;
+    top: 5px;
+    left: 965px;
+    width: 230px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    text-align: center;
+    color: #34bfff;
+}
+.main_main .border .small h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.main_main .border .small h5 {
+    text-transform: capitalize;
+}
+.main_main .border .small p::first-letter{
+    text-transform: uppercase;
 }
 .main_main .border .small {
     padding-top: 5px;
@@ -186,6 +210,7 @@ header ul ul li button {
     height: 300px;
     box-shadow: 0 0 5px #000000a4, 0 0 5px #000000a4;
 }
+
 .main_main .border .small button {
     position: relative;
     top: 12px;
@@ -206,6 +231,12 @@ header ul ul li button {
 .main_main .border .small .btn2:hover {
     background-color: #34bfff;
     border: none;
+}
+.main_main .border .small button a {
+    color: #000;
+}
+.main_main .border .small button a:active {
+    color: #f00;
 }
 /* skill */
 .main_main1 {
@@ -248,8 +279,8 @@ header ul ul li button {
     text-transform: uppercase;
     color: #000000;
     border-radius: 10px;
-    background-color: #ffffffa9;;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffffa9;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 .main_main1.she1 span {
     font-size: 13px;
