@@ -40,7 +40,7 @@ header ul li p .uma {
 header nav ul ul #hire {
     color: #ffffff;
     display: block;
-    box-shadow: 0 0 3.6expx #34bfff;
+    box-shadow: 0 0 3.6px #34bfff;
     position: relative;
     left: 55px;
     bottom: 10px;
@@ -145,20 +145,20 @@ header ul ul li button {
 /* projects */
 .main_main {
     width: 100%;
-    height: 800px;
+    height: 50rem;
     background-image:-webkit-linear-gradient(left, rgba(13, 4, 15, 0.568) , rgba(13, 4, 15, 0.932)), url('thir.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .main_main .border, .main_main .border .main, .main_main .border .small {
     position: absolute;
-    top: 900px;
+    top: 56.25rem;
     left: 70px;
     background-color: transparent;
     border: 3px solid white;
     border-radius: 10px;
-    width: 1200px;
-    height: 600px;
+    width: 75rem;
+    height: 37.5rem;
 }
 .main_main .border{
     background-color: transparent;
@@ -166,6 +166,9 @@ header ul ul li button {
 }
 .main_main .border:hover {
     border: 3px solid #34bfff;
+}
+.main_main .border .main:hover {
+    background-color: #000000;
 }
 .main_main .border .main {
     background-image: url('assign1.png');
@@ -175,6 +178,21 @@ header ul ul li button {
     top: 70px;
     width: 400px;
     height: 450px;
+}
+.main_main .border .hover {
+    background-image: none;
+    opacity: 0;
+    transition: 100ms;
+}
+.main_main .border .hover:hover{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.348);
+    opacity: 1;
+}
+.main_main .border .hover h2 {
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 .main_main .border .border_text {
     position: relative;
@@ -489,7 +507,7 @@ footer .sec3 {
     font-size: 16px;
 }
 footer div .blue {
-    color: #34bfff;;
+    color: #34bfff;
 }
 footer .sec3 input {
     position: relative;
@@ -530,3 +548,52 @@ footer .sec3 .bug {
     left: 10px;
     color: #000000c5;
 }
+
+@media (max-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        width: 500px;
+        background-color: red;
+    }
+    /* nav */
+    header nav  {
+        display: none;
+        font-size: calc(1rem - 5px);
+        position: relative;
+        right:100px;
+    }
+    /* main header */
+    .main_header {
+        width: 100vw;
+        height: 250px;
+        background-size: cover;
+    }
+    /* footer */
+    .main_header div {
+        display: none;
+    }
+    /* footer */
+    .main_main {
+        display: none;
+    }   
+    /* footer */
+    .main_main1 {
+        display: none;
+    }
+    /* footer */
+    .main_main2 {
+        display: none;
+    }
+    /* footer */
+    .beauty {
+        display: none;
+    }
+    /* footer */
+    footer {
+        display: none;
+    }
+}
+
