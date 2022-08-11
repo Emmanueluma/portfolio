@@ -555,6 +555,7 @@ footer .sec3 .bug {
 @media (max-width: 375px) {
     body {
         width: 375px;
+        font-family: Tahoma, sans-serif;
     }
     header nav {
         width: 100%;
