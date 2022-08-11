@@ -701,6 +701,9 @@ footer .sec3 .bug {
         font-size: 2rem;
         line-height: 40px;
         transform: rotate(-90deg);
+    }.main_main1 .she1 span {
+        position: relative;
+        top: 0px;
     }
     .main_main2 .one {
         top: 80px;
