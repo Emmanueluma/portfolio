@@ -302,8 +302,10 @@ header ul ul li button {
     background-color: #ffffffa9;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
-.main_main1.she1 span {
-    font-size: 13px;
+.main_main1 .she1 span {
+    font-size: 25px;
+    position: relative;
+    top: -10px;
 }
 .main_main1 .border {
     position: relative;
