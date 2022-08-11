@@ -555,7 +555,7 @@ footer .sec3 .bug {
     color: #000000c5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     body {
         width: 375px;
         font-family: Tahoma, Verdana, Segoe, sans-serif;
