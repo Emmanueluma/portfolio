@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: cursive;
+}
+body {
+        font-family: cursive;
 }
 /* The header */
 header {
@@ -555,7 +557,7 @@ footer .sec3 .bug {
 @media (max-width: 375px) {
     body {
         width: 375px;
-        font-family: Tahoma, sans-serif;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
     }
     header nav {
         width: 100%;
