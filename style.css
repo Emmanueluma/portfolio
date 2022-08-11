@@ -82,7 +82,7 @@ header ul ul li button {
 .main_header {
     width: 100%;
     height: 800px;
-    background-image: url('main.jpg');
+    background-image: url('image/main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -148,7 +148,7 @@ header ul ul li button {
 .main_main {
     width: 100%;
     height: 50rem;
-    background-image:-webkit-linear-gradient(left, rgba(13, 4, 15, 0.568) , rgba(13, 4, 15, 0.932)), url('thir.jpg');
+    background-image:-webkit-linear-gradient(left, rgba(13, 4, 15, 0.568) , rgba(13, 4, 15, 0.932)), url('image/thir.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -173,7 +173,7 @@ header ul ul li button {
     background-color: #000000;
 }
 .main_main .border .main {
-    background-image: url('assign1.png');
+    background-image: url('image/assign1.png');
     background-size: cover;
     background-position: center;
     border: none;
@@ -262,7 +262,7 @@ header ul ul li button {
 .main_main1 {
     width: 100%;
     height: 800px;
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.383) , rgba(0, 0, 0, 0.49)),url('five.jpg');
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.383) , rgba(0, 0, 0, 0.49)),url('image/five.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -385,7 +385,7 @@ i {
 .main_main2 {
     width: 100%;
     height: 800px;
-    background-image: -webkit-linear-gradient(left, rgba(13, 4, 15, 0.568) , rgba(13, 4, 15, 0.932)),url('fourth.jpg');
+    background-image: -webkit-linear-gradient(left, rgba(13, 4, 15, 0.568) , rgba(13, 4, 15, 0.932)),url('image/fourth.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -393,7 +393,7 @@ i {
     float: left;
     margin-left: 200px;
     padding: 170px 100px;
-    background-image: url('fourth.jpg');
+    background-image: url('image/fourth.jpg');
     background-size: cover;
     background-position: center;
     border: none;
