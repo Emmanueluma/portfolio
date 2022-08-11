@@ -162,7 +162,7 @@ header ul ul li button {
 }
 .main_main .border{
     background-color: transparent;
-    transition: 2s;    
+    transition: 1s;    
 }
 .main_main .border:hover {
     border: 3px solid #34bfff;
@@ -182,7 +182,7 @@ header ul ul li button {
 .main_main .border .hover {
     background-image: none;
     opacity: 0;
-    transition: 100ms;
+    transition: 1s;
 }
 .main_main .border .hover:hover{
     backdrop-filter: blur(5px);
@@ -489,6 +489,9 @@ footer .sec1 ul li a {
     margin-right: 6px;
     color: #34bfff;
 }
+footer .sec1 ul li a:hover {
+    background-color: #33beff2e;
+}
 footer .sec1 .copy {
     color: #ffffff7e;
 }
@@ -744,4 +747,3 @@ footer .sec3 .bug {
         left: 10px;
     }
 }
-
