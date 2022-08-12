@@ -137,7 +137,7 @@ header ul ul li button {
     border: none;
     border-radius: 20px;
     background-color: #34bfff;
-    box-shadow: 0 0 5px #000000b4;
+    box-shadow: 0 0 5px #0000008d;
     color: #ffffff;
 }
 .main_header div button a {
@@ -555,7 +555,7 @@ footer .sec3 .bug {
     color: #000000c5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     body {
         width: 375px;
         font-family: Tahoma, Verdana, Segoe, sans-serif;
